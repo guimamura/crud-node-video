@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://crud-node-video.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://crud-node-video.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/1c4053ab-74ea-4eba-8a84-450a1472efce
+PUT https://crud-node-video.onrender.com/videos/ea2f6555-4d6f-477b-92d2-2f626c883caa
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/1c4053ab-74ea-4eba-8a84-450a1472efce
+DELETE https://crud-node-video.onrender.com/videos/ea2f6555-4d6f-477b-92d2-2f626c883caa
